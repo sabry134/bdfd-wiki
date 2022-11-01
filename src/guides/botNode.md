@@ -12,7 +12,7 @@ Nodes have their own versions. They are updated gradually, so some bots support 
 - Choose your application.
 - In top-left corner, click on the hamburger icon (≡) and select the *"Bot"* tab.
 - Once done, press the *"Reset Token"* button and copy your bot token.
-   > ⚠️ Never share your Discord bot token with anyone. [Learn more](/resources/security.html#sharing-tokens).
+   > ⚠️ Never share your Discord bot token with anyone. [Learn more](../resources/security.md#sharing-tokens).
 - Now, open your BDFD app and choose your bot.
 - Click on the gear at the bottom of the panel
 - Paste the copied token into the line *"Your bot token:"* and save
