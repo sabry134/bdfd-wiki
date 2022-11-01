@@ -31,6 +31,7 @@
         - [Character Escaping](./guides/characterEscaping.md)
         - [Hyperlinks](./guides/hyperlinks.md)
         - [Share Code](./guides/sharecode.md)
+        - [Bot Node](./guides/botNode.md)
 
 - [Resources]()
     - [Introduction](./resources/introduction.md)
