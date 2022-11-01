@@ -2,6 +2,10 @@
 
 # 2022
 
+## November
+- Deprecated `$userJoinedDiscord[]` in favor of `$creationDate[]`
+- Added `Format` argument to `$creationDate[]`
+
 ## October
 - Added `$publishMessage[]`
 - Made `$useChannel[]` work with message components
@@ -14,10 +18,13 @@
 - Added `stage` and `forum` channel types to `$createChannel[]`
 - Added `stage`, `announcement`, and `forum` channel types to `$channelType[]`
 - `$enableDecimals[]` now works with `$calculate[]`
+- Added `$getCustomStatus[]`
 - Added `$httpStatus`
 - Added `$httpGetHeader[]`
 - Added `$botOwnerID`
 - Added `$repliedMessageID`
+- Fixed the guild list fetching issue
+- Added `$parentID`
 
 ## September
 - Added `channelID` field to `$awaitFunc[]`
