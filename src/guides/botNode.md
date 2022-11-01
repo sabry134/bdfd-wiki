@@ -1,6 +1,6 @@
 # BDFD Nodes
 
-Nodes are servers where all bots are hosted. When you add a bot to BDFD, your bot connects to a node. Use [`$botNode`](../bdscript/botNode.md) to get node bot ID.
+Nodes are servers where all bots are hosted. When you add a bot to BDFD, your bot connects to a node. Use [`$botNode`](../bdscript/botNode.html) to get node bot ID.
 
 Every 6-16 hours, the bot node restarts to update and reduce load. You can track the status of a node on the [Nodes Status](https://botdesignerdiscord.com/status). Accordingly, the bot will be disabled for the period of restarting the node. 
 When the rate limit is reached, a new node is created.
