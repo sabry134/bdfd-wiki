@@ -2,9 +2,24 @@
 
 # 2022
 
+## December
+- Added limit on input numbers to 2^128 on the basic math functions
+- Fixed BDScript 2 having problems with handling unicode characters
+- Fixed `$stop` causing undefined behaviour
+- Added `$getBanReason[]`
+- Fixed caching issues for the text splitting functions
+- Fixed issues with custom images
+
 ## November
 - Deprecated `$userJoinedDiscord[]` in favor of `$creationDate[]`
 - Added `Format` argument to `$creationDate[]`
+- Added `$editSplitText[]`
+- Added `$serverEmojis[]`
+- Added `$setChannelVar[]`
+- Added `$getChannelVar[]`
+- Added `$resetChannelVar[]`
+- Added `channel` option to `$variablesCount[]`
+- Fixed BDScript 2's escaping not working in some cases
 
 ## October
 - Added `$publishMessage[]`
