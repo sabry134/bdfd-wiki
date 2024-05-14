@@ -9,7 +9,7 @@ $nodeVersion
 ## Example
 ```
 $nomention
-Version node: $nodeVersion
+Node version: $nodeVersion
 ```
 
 ```discord yaml
@@ -23,7 +23,7 @@ Version node: $nodeVersion
   color: "#b9a0e0"
   bot: true
   content: |
-    Version node: 05-07-2023-c8800d6
+    Node version: 05-07-2023-c8800d6
 ```
 
 > You can use [`$botNode`](./botNode.md) to find out which node your bot is on.
