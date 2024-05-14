@@ -52,7 +52,8 @@ I created a new thread! <#$startThread[Cool Thread;$channelID;;1440;yes]>
 - type: thread
   content: |
     <i style="color: #378afa">BDFD Support</i> Started a thread: <i style="color: white">Cool Thread</i>. See all <i style="color: white">threads</i>.
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -175,7 +176,8 @@ $threadAddMember[$var[id];$authorID]
 - type: thread
   content: |
     <i style="color: #378afa">BDFD Support</i> Started a thread: <i style="color: white">Cool Thread</i>. See all <i style="color: white">threads</i>.
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
