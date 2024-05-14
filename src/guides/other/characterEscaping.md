@@ -15,6 +15,7 @@ $ | `%{DOL}%`
 
 ## Example
 ```
+$nomention
 $sendMessage[[ Hi, this is pretty cool\; right? \]]
 ```
 
