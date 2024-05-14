@@ -19,11 +19,11 @@ Used to initiate an awaited command.
 
 ## Syntax
 ```
-$awaitFunc[Command Name;(User ID;Channel ID)]
+$awaitFunc[Command name;(User ID;Channel ID)]
 ```
 
 ### Parameters
-- `Command Name` `(Type: String || Flag: Required)`: The name used inside [`$awaitedCommand[]`](#awaitedcommand) and [`$awaitedCommandError[]`](#awaitedcommanderror) callbacks.
+- `Command name` `(Type: String || Flag: Required)`: The name used inside [`$awaitedCommand[]`](#awaitedcommand) and [`$awaitedCommandError[]`](#awaitedcommanderror) callbacks.
 - `User ID` `(Type: Snowflake || Flag: Vacantable)`: The user the awaited command will trigger for. Uses command author, if `User ID` is not given.
 - `Channel ID` `(Type: Snowflake || Flag: Optional)`: The channel where the command will be awaited. Uses current channel, if `Channel ID` is not given.
 
