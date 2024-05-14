@@ -24,7 +24,8 @@ $description[This bot is made with [Bot Designer For Discord\](https://botdesign
   color: "#E67E22"
   content: |
     !example abc
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
