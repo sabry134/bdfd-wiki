@@ -1,5 +1,5 @@
 # $aiQuota
-Returns reaming token limit for the bot.
+Returns remaining token limit for the bot.
 
 ## Syntax
 ```
