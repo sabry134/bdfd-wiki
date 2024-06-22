@@ -5,7 +5,7 @@ Creates a new channel.
 ```
 $createChannel[Name;Type;(Category ID)]
 ```
-> Discord allows users to create up to 500 channels per server. This includes `voice`, `forum`, `stage` and `text` channels, as well as, `category`.
+> Discord allows users to create up to 500 channels per server. This includes all channel types.
 
 ### Parameters
 - `Name` `(Type: String || Flag: Required)`: The name of the new channel.
