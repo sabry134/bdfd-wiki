@@ -23,7 +23,8 @@ Here, are all possible values for the `style` function argument.
 - `link` - Redirect button
 
 ```discord yaml
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -54,7 +55,8 @@ Here, are all possible values for the `style` function argument.
       - type: secondary
         label: Secondary
         disabled: true
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -93,23 +95,24 @@ Interactive buttons can use every `style` except `link`.
 Adds a button to the response message.
 ## Syntax
 ```
-$addButton[new row?;interaction ID/url;label;style;(disable?;emoji;message ID)]
+$addButton[New row?;Interaction ID/url;Label;Style;(Disable?;Emoji;Message ID)]
 ```
 ### Parameters
-- `new row?` `(Type: Bool || Flag: Required)`: If set to `yes` the button will appear in a new row. If it's set to `no` the button will appear in the same row as a previous button.
+- `New row?` `(Type: Bool || Flag: Required)`: If set to `yes` the button will appear in a new row. If it's set to `no` the button will appear in the same row as a previous button.
 
     > A message can have a maximum of 25 buttons (5 rows of 5 buttons).
 
-- `interaction ID/url` `(Type: String, URL || Flag: Required)`: Depending on the button type, you either set it to an `interaction ID` which is then used in the `$onInteraction[ID]` callback or a `URL` if it's a link button.
-- `label` `(Type: String || Flag: Emptiable)`: The text visible on the button.
-- `style` `(Type: Enum || Flag: Required)`: It's used to specify the button's background color. If the button has a link/url you **have to** set this value to `link`. Check [this section](#button-style) for more details.
-- `disable?` `(Type: Bool || Flag: Vacantable)`:  If set to `yes` the button can't be pressed. Defaults as `no`.
-- `emoji` `(Type: Emoji || Flag: Vacantable)`: Adds an emoji inside the button. Emojis have to be either pasted as *unicode* or be in the following format `<:emoji name:emoji ID>`.
+- `Interaction ID/URL` `(Type: String, URL || Flag: Required)`: Depending on the button type, you either set it to an `Interaction ID` which is then used in the `$onInteraction[Interaction ID]` or `$onInteraction` callback or a `URL` if it's a link button.
+> You don't need `$onInteraction`/`$onInteraction[]` for URL.
+- `Label` `(Type: String || Flag: Emptiable)`: The text visible on the button.
+- `Style` `(Type: Enum || Flag: Required)`: It's used to specify the button's background color. If the button has a link/url you **have to** set this value to `link`. Check [this section](#button-style) for more details.
+- `Disable?` `(Type: Bool || Flag: Vacantable)`:  If set to `yes` the button can't be pressed. Defaults as `no`.
+- `Emoji` `(Type: Emoji || Flag: Vacantable)`: Adds an emoji inside the button. Emojis have to be either pasted as *unicode* or be in the following format `<:emoji name:emoji ID>`.
 - `message ID` `(Type: Snowflake || Flag: Vacantable)`: Adds a button to the provided message ID. It's important to note that provided message ID author **has to** be the bot.
 
 > Interactive buttons can't have duplicated `ID`'s in the same message. So for example, you can't have two buttons with the ID set to `test`.
 
-> If `url` is used in `interaction ID/url` argument, it **has to** start with `http://` or `https://`
+> If `URL` is used in `Interaction ID/url` argument, it **has to** start with `http://` or `https://`
 
 ## Example
 ```
@@ -124,7 +127,8 @@ $addButton[no;test;Say hello!;primary;no;]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -142,16 +146,16 @@ Edits an already existing button.
 
 ## Syntax
 ```
-$editButton[interaction ID/url;label;style;(disable?;emoji;message ID)]
+$editButton[Interaction ID/URL;Label;Style;(Disable?;Emoji;Message ID)]
 ```
 
 ### Parameters
-- `interaction ID/url` `(Type: String, URL || Flag: Required)`: Depending on the button type, you either set it to an `interaction ID` which is then used in the `$onInteraction[ID]` callback or a `URL` if it's a link button.
-- `label` `(Type: String || Flag: Emptiable)`: The text visible on the button.
-- `style` `(Type: Enum || Flag: Required)`: It's used to specify the button's background color. If the button has a link/url you **have to** set this value to `link`. Check [this section](#button-style) for more details.
-- `disable?` `(Type: Bool || Flag: Vacantable)`: If set to `yes` the button can't be pressed. Defaults as `no`. _(Optional)_
-- `emoji` `(Type: Emoji || Flag: Vacantable)`: Edits an emoji inside the button. Emojis have to be either pasted as *unicode* or be in the following format `<:emoji name:emoji ID>`. _(Optional)_
-- `message ID` `(Type: Snowflake || Flag: Vacantable)`: Edits a button in a message with the provided ID. It's important to note that provided message ID author **has to** be the bot. _(Optional)_
+- `Interaction ID/URL` `(Type: String, URL || Flag: Required)`: Depending on the button type, you either set it to an `Interaction ID` which is then used in the `$onInteraction[Interaction ID]` callback or a `URL` if it's a link button.
+- `Label` `(Type: String || Flag: Emptiable)`: The text visible on the button.
+- `Style` `(Type: Enum || Flag: Required)`: It's used to specify the button's background color. If the button has a link/url you **have to** set this value to `link`. Check [this section](#button-style) for more details.
+- `Disable?` `(Type: Bool || Flag: Vacantable)`: If set to `yes` the button can't be pressed. Defaults as `no`. _(Optional)_
+- `Emoji` `(Type: Emoji || Flag: Vacantable)`: Edits an emoji inside the button. Emojis have to be either pasted as *unicode* or be in the following format `<:emoji name:emoji ID>`. _(Optional)_
+- `Message ID` `(Type: Snowflake || Flag: Vacantable)`: Edits a button in a message with the provided ID. It's important to note that provided message ID author **has to** be the bot. _(Optional)_
 ## Example
 #### Trigger: `$onInteraction[test]`
 ```
@@ -181,10 +185,10 @@ $removeButtons
 Removes all buttons from the specified message.
 ## Syntax
 ```
-$removeButtons[message ID]
+$removeButtons[Message ID]
 ```
 ### Parameters
-- `message ID` `(Type: Snowflake || Flag: Required)`: Removes buttons from the message with the provided ID. It's important to note that provided message ID author **has to** be the bot.
+- `Message ID` `(Type: Snowflake || Flag: Required)`: Removes buttons from the message with the provided ID. It's important to note that provided message ID author **has to** be the bot.
 ## Example
 ```
 $nomention
@@ -197,12 +201,12 @@ $removeButtons[$message]
 Removes a certain component from a message.
 ## Syntax
 ```
-$removeComponent[interaction ID;(message ID)]
+$removeComponent[Interaction ID/URL;(Message ID)]
 ```
 > This function supports [select-menu](../selectMenus/aboutSelectMenu.md) and [button](../buttons/aboutButtons.md).
 ### Parameters
-- `interaction ID` `(Type: String || Flag: Required)`: The interaction ID of the button, to remove from the message. 
-- `message ID` `(Type: Snowflake || Flag: Vacantable)`: Removes the button from the message with the provided ID. It's important to note that provided message ID author **has to** be the bot. _(Optional)_
+- `Interaction ID/URL` `(Type: String || Flag: Required)`: The interaction ID of the button, to remove from the message. 
+- `Message ID` `(Type: Snowflake || Flag: Vacantable)`: Removes the button from the message with the provided ID. It's important to note that provided message ID author **has to** be the bot. _(Optional)_
 ## Example
 ```
 $nomention
@@ -261,7 +265,7 @@ $endif
 > Note that the interaction ID returned by `$customID` will be the same as the one provided in `$addButton[]`
 > 
 > In `$addButton[]`, `yes` is being used for the `new row?` argument so that the button would appear in the next row.
-> 
+
 3. Execute command `!example`
 
 ![example](https://user-images.githubusercontent.com/113303649/211164994-695cf7b6-b2fa-49e5-a78f-dc21db213a9a.png)

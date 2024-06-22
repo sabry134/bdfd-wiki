@@ -36,7 +36,8 @@ $textSplit[hello-world-!;-]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -71,7 +72,8 @@ $textSplit[hello world !; ]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -102,7 +104,8 @@ $textSplit[hello%world%!;%]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -134,7 +137,8 @@ $textSplit[hello_world_!;_]
   color: "#E67E22"
   content: |
     !example world
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -145,7 +149,8 @@ $textSplit[hello_world_!;_]
   color: "#E67E22"
   content: |
     !example bdfd
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -178,7 +183,8 @@ $textSplit[hello#world#!;#]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -213,7 +219,8 @@ $removeSplitTextElement[3]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -247,7 +254,8 @@ $editSplitText[2;bdfd]
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -272,7 +280,8 @@ First word: $splitText[<]
   color: "#E67E22"
   content: |
     !example Hello world!
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
