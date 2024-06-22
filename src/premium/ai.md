@@ -32,4 +32,4 @@ $ai[What is 2+5?;You are math teacher😎]
 ```
 \
 
-> You need to use [`$aiQuota`](./aiQuota.md)
+> You need to use [`$aiQuota`](./aiQuota.md)!
