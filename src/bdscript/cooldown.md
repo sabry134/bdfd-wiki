@@ -27,3 +27,55 @@ $nomention
 $cooldown[30s;Please wait %time%, then use that command again!]
 Hi!
 ```
+
+``` discord yaml
+- user_id: 803569638084313098
+  username: RainbowKey
+  color: "#E67E22"
+  content: |
+    !example
+- username: BDFD Support
+  color: "#378afa"
+  bot: true
+  verified: true
+  content: |
+    Hi
+- user_id: 803569638084313098
+  username: RainbowKey
+  color: "#E67E22"
+  content: |
+    !example
+- username: BDFD Support
+  color: "#378afa"
+  bot: true
+  verified: true
+  content: |
+    Please wait 27 Seconds, then use that command again!
+```
+\
+
+> If you are using **BDScript 2**, then all functions above `$colldown[]` will always work.
+> 
+> ❌ Not correct:
+> ```
+> $nomention
+> $setUserVar[Money;$sum[$getUserVar[Money];5]]
+> $sendMessage[You worked successfully and earned 5 🪙]
+> $cooldown[30s;Please wait %time%, then use !work command again!]
+> ```
+> Your bot will always add 5🪙 to "Money" variable.
+> 
+> ✅ Correct:
+> ```
+> $nomention
+> $cooldown[30s;Please wait %time%, then use !work command again!]
+> $setUserVar[Money;$sum[$getUserVar[Money];5]]
+> $sendMessage[You worked successfully and earned 5 🪙]
+> ```
+> How [`$setUserVar[]`](./findUser.md) and [`$sendMessage[]`](./sendMessage.md) works?
+
+### Recommendation
+You can also use these functions:
+- [`$getCooldown[]`](./getCooldown.md)
+- [`$serverCooldown[]`](./serverCooldown.md)
+- [`$globalCooldown[]`](./globalCooldown.md)
