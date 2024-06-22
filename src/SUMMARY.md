@@ -448,6 +448,7 @@
         - [$reaction](./premium/reaction.md)
     - [Functions]()
         - [$ai](./premium/ai.md)
+        - [$aiQuota](./premium/aiQuota.md)
         - [$awaitReactions](./premium/awaitReactions.md)
         - [$customImage](./premium/customImage.md)
         - [$usedEmoji](./premium/usedEmoji.md)
