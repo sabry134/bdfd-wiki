@@ -31,3 +31,5 @@ $ai[What is 2+5?;You are math teacher😎]
     The answer is 7
 ```
 \
+
+> You need to use [`$aiQuota`](./aiQuota.md)
