@@ -6,7 +6,7 @@ Returns reaming token limit for the bot.
 $aiQuota
 ```
 
-> 1 character = 1 token
+> 4 characters = 1 token
 
 ## Example
 ```
