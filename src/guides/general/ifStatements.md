@@ -54,7 +54,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -95,7 +96,8 @@ $endif
   color: "#E67E22"
   content: |
     !example abc
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -110,7 +112,8 @@ $endif
   color: "#E67E22"
   content: |
     !example abc
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -141,7 +144,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -152,7 +156,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -201,7 +206,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -212,7 +218,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -247,7 +254,8 @@ $endif
   color: "#E67E22"
   content: |
     !example Update
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -258,7 +266,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -269,7 +278,8 @@ $endif
   color: "#f1bdee"
   content: |
     !example 
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -280,7 +290,8 @@ $endif
   color: "#f1bdee"
   content: |
     !example Update
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -314,7 +325,8 @@ $endif
   color: "#E67E22"
   content: |
     !example Update
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -325,7 +337,8 @@ $endif
   color: "#E67E22"
   content: |
     !example
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -336,7 +349,8 @@ $endif
   color: "#f1bdee"
   content: |
     !example 
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -347,7 +361,8 @@ $endif
   color: "#f1bdee"
   content: |
     !example Update
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -377,7 +392,8 @@ $endif
   color: "#E67E22"
   content: |
     !example BDFD
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -388,7 +404,8 @@ $endif
   color: "#E67E22"
   content: |
     !example Bartek
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -399,7 +416,8 @@ $endif
   color: "#E67E22"
   content: |
     !example Premium
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
@@ -410,7 +428,8 @@ $endif
   color: "#E67E22"
   content: |
     !example Hello
-- username: BDFD Support
+- user_id: 1009018156494368798
+  username: BDFD Support
   color: "#378afa"
   bot: true
   verified: true
