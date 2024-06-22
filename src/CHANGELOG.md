@@ -6,7 +6,6 @@
 - Added `$ai[]`
 - Added `$aiQuota`
 
-
 # 2023
 
 ## June
