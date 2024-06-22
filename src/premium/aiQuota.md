@@ -11,7 +11,7 @@ $aiQuota
 ## Example
 ```
 $nomention
-Tokens reaming limit: $aiQuota
+Tokens remaining limit: $aiQuota
 ```
 
 ``` discord yaml
@@ -26,7 +26,7 @@ Tokens reaming limit: $aiQuota
   bot: true
   verified: true
   content: |
-    Tokens reaming limit: 1800
+    Tokens remaining limit: 1800
 ```
 \
 
