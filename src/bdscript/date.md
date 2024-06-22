@@ -19,11 +19,11 @@ Today's Date: $date
   username: Nicky
   color: "#EE7908"
   content: |
-    !date
+    !example
 - user_id: 566613317972394004
   username: Wiki Bot
   color: "#748BD4"
   bot: true
   content: |
-    Today's Date: 2023-07-24
+    Today's Date: 2024-06-22
 ```
