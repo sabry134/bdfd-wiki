@@ -14,5 +14,20 @@ $ai[Prompt;(System prompt;Response token limit)]
 ## Example
 ```
 $nomention
-$ai[What is 2+5?]
+$ai[What is 2+5?;You are math teacher😎]
 ```
+
+``` discord yaml
+- user_id: 803569638084313098
+  username: RainbowKey
+  color: "#E67E22"
+  content: |
+    !example
+- username: BDFD Support
+  color: "#378afa"
+  bot: true
+  verified: true
+  content: |
+    The answer is 7
+```
+\
