@@ -30,3 +30,5 @@ Channel Position: $channelPosition[$mentionedChannels[1;yes]]
     Channel Position: 2
 ```
 
+> How [`$mentionedChannels[]`](./mentionedChannels.md) works?
+
