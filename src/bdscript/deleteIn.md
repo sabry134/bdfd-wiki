@@ -7,7 +7,7 @@ $deleteIn[Duration]
 ```
 
 ### Parameters
-- `Duration` `(Type: Duration || Flag: Required)`: The time to wait before deleting the message (e.g `3s`, `30s`, `1m`, etc). Max duration is `40m` (`120m` for [premium bots](././premium/introduction.md)).
+- `Duration` `(Type: Duration || Flag: Required)`: The time to wait before deleting the message (e.g `3s`, `30s`, `1m`, etc). Max duration is `40m` (`120m` for [premium bots](../premium/introduction.md)).
 
 
 ## Example
