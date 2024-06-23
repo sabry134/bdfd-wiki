@@ -22,8 +22,11 @@ $nomention
   content: |
     !example
 - username: BDFD Support
-  color: "#b9a0e0"
+  user_id: 1009018156494368798
+  username: BDFD Support
+  color: "#378afa"
   bot: true
+  verified: true
   content: |
     #32D167
 ```
