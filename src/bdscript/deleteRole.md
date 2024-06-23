@@ -35,5 +35,6 @@ Successfully deleted $roleName[$findRole[$message]]
       Successfully deleted Cool Role
   ```
 \
-
 ![example](https://user-images.githubusercontent.com/111157596/239688761-3bd88f60-8a5c-48e9-9b23-677b2e4ecd17.png)
+
+> How [`$findRole[]`](./findRole.md), [`$roleName[]`](./roleName.md) and [`$message`](./message.md) works?
