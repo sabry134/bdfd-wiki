@@ -32,4 +32,4 @@ Tokens remaining limit: $aiQuota
 
 > New tokens will be awarded and summed up every 24 hours!
 > 
-> The maximum tokens: 1800 (Can be expanded over time) 
+> The maximum tokens: 2500 (Can be expanded over time) 
