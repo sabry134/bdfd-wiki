@@ -20,7 +20,7 @@ Successfully deleted #$channelName[$mentionedChannels[1]]
 $deleteChannels[$mentionedChannels[1]]
 ```
 
-```
+``` discord yaml
 - user_id: 803569638084313098
   username: RainbowKey
   color: "#E67E22"
