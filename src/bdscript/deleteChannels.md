@@ -16,7 +16,7 @@ Required permissions that the bot must have for this function to work properly:
 ## Example
 ```
 $nomention
-Successfully deleted $channelName[$mentionedChannels[1]]
+Successfully deleted #$channelName[$mentionedChannels[1]]
 $deleteChannels[$mentionedChannels[1]]
 ```
 
@@ -32,7 +32,7 @@ $deleteChannels[$mentionedChannels[1]]
   bot: true
   verified: true
   content: |
-      Successfully deleted main-chat
+      Successfully deleted #main-chat
   ```
 \
 ![example](https://github.com/Rainb0wKey/bdfd-wiki/assets/113303649/6479e1dd-da03-431a-85e8-1f8ff18bf84c)
