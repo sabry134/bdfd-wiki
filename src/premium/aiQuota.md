@@ -6,7 +6,7 @@ Returns remaining token limit for the bot.
 $aiQuota
 ```
 
-> 4 characters = 1 token
+> [4 characters](./ai.md) = 1 token
 
 ## Example
 ```
@@ -31,4 +31,5 @@ Tokens remaining limit: $aiQuota
 \
 
 > New tokens will be awarded and summed up every 24 hours!
+> 
 > The maximum tokens: 1800 (Can be expanded over time) 
