@@ -9,7 +9,6 @@ $serverNames
 ## Example
 ```
 $nomention
-$onlyForIDs[$botOwnerID;Only my owner can use that!]
 $serverNames
 ```
 
