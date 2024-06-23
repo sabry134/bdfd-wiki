@@ -37,7 +37,6 @@ $userJoinedDiscord[User ID;(Format)]
   content: |
     2021-01-26
 ```
-\
   
 - Custom format
    ```
