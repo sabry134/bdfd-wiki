@@ -6,12 +6,12 @@ Returns remaining token limit for the bot.
 $aiQuota
 ```
 
-> 4 characters = 1 token
+> [4 characters](./ai.md) = 1 token
 
 ## Example
 ```
 $nomention
-Tokens reaming limit: $aiQuota
+Tokens remaining limit: $aiQuota
 ```
 
 ``` discord yaml
@@ -26,9 +26,10 @@ Tokens reaming limit: $aiQuota
   bot: true
   verified: true
   content: |
-    Tokens reaming limit: 1800
+    Tokens remaining limit: 1800
 ```
 \
 
 > New tokens will be awarded and summed up every 24 hours!
-> The maximum tokens: 1800 (Can be expanded over time) 
+> 
+> The maximum tokens: 2500 (Can be expanded over time) 
