@@ -1,6 +1,8 @@
 # $isBooster
 Returns if user is boosting guild with nitro.
 
+> "true" means the user is a booster, "false" means it isn't.
+
 ## Syntax
 ```
 $isBooster[(User ID;Guild ID)]
