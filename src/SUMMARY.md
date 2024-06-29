@@ -44,7 +44,7 @@
 
 - [Resources]()
     - [Introduction](./resources/introduction.md)
-    - [API](./resources/api.md)
+    - [BDFD API](./resources/api.md)
     - [BDFD's Creation](./resources/bdfdCreation.md)
     - [Discord's ID System](./resources/discordIDSystem.md)
     - [Discord Timestamps](./resources/discordTimestamps.md)
