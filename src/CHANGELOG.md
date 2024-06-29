@@ -3,6 +3,8 @@
 # 2024
 
 ## June
+- Added `$getLeaderboardPosition[]`
+- Added `$isBooster[]`
 - Added `$ai[]`
 - Added `$aiQuota`
 
