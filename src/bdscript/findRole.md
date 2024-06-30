@@ -31,3 +31,5 @@ Role ID: $findRole[$message]
   content: |
     Role ID: 568155071997542410
 ```
+
+> [How `$message` works?](./message.md)
