@@ -41,6 +41,10 @@
         - [Character Escaping](./guides/other/characterEscaping.md)
         - [Hyperlinks](./guides/other/hyperlinks.md)
         - [Share Code](./guides/other/sharecode.md)
+        - [Character Escaping](./guides/characterEscaping.md)
+        - [Hyperlinks](./guides/hyperlinks.md)
+        - [Share Code](./guides/sharecode.md)
+        - [Bot Node](./guides/botNode.md)
 
 - [Resources]()
     - [Introduction](./resources/introduction.md)
