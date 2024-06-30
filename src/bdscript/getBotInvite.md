@@ -29,7 +29,7 @@ Invite Me! $getBotInvite
   color: "#378afa"
   bot: true
   content: |
-    Invite Me! https://discordapp.com/oauth2/authorize?client_id=390515191819010058&scope=bot&permissions=2146958847
+    Invite Me! <a href="https://discordapp.com/oauth2/authorize?client_id=390515191819010058&scope=bot&permissions=2146958847">https://discordapp.com/oauth2/authorize?client_id=390515191819010058&scope=bot&permissions=2146958847</a>
 ```
 
 > *The invitation link in **this** example is fake, so it doesn’t work.*
