@@ -1,4 +1,4 @@
-# $getBanReason[]
+# $getBanReason
 Gets the user's ban reason.
 
 
