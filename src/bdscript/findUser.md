@@ -30,3 +30,5 @@ User ID: $findUser[$message]
   content: |
     User ID: 1009018156494368798
 ```
+
+> [How `$message` works?](./message.md)
