@@ -1,7 +1,7 @@
 # $editSelectMenu
 Edits a select menu.
 
-> You can change the select menu option with [`$editSelectMenuOption[]`](./editSelectMenuOption.md).
+> You can edit the select menu option with [`$editSelectMenuOption[]`](./editSelectMenuOption.md).
 
 ## Syntax
 ```
