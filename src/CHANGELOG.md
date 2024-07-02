@@ -6,13 +6,13 @@
 - Added `$setUserRoles[]`
 - Fixed `$getLeaderboardPosition[]`
 
+<details><summary>Previous Updates</summary>
+
 ## June
 - Added `$getLeaderboardPosition[]`
 - Added `$isBooster[]`
 - Added `$ai[]`
 - Added `$aiQuota`
-
-<details><summary>Previous Updates</summary>
 
 ## March
 - Fixed that sometimes the bot duplicates its answer
