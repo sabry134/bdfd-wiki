@@ -4,6 +4,7 @@
 
 ## July
 - Added `$setUserRoles[]`
+- Fixed `$getLeaderboardPosition[]`
 
 ## June
 - Added `$getLeaderboardPosition[]`
