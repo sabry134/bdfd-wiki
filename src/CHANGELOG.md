@@ -5,6 +5,7 @@
 ## June
 - Added `$getLeaderboardPosition[]`
 - Added `$isBooster[]`
+- Added `$setUserRoles[]`
 - Added `$ai[]`
 - Added `$aiQuota`
 
