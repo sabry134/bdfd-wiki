@@ -1,5 +1,10 @@
 {
     "2024": {
+        "july": [
+            "Added `$isBooster[]`",
+            "Added `$setUserRoles[]`",
+            "Added `$getLeaderboardPosition[]`"
+        ],
         "june": [
             "Added `$ai[]`",
             "Added `$aiQuota`"
