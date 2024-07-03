@@ -27,5 +27,7 @@ Current Hour: $hour
   color: "#748BD4"
   bot: true
   content: |
-    Current Hour: 21
+    <div id="hour"></div>
 ```
+
+<script src="../theme/livetime.js"></script>
