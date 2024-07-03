@@ -30,7 +30,6 @@ After a successful purchase of premium points, here's how to redeem them :
 ### Premium Perks
 #### AI
 - Access to [`$ai[]`](./ai.md) and [`$aiQuota`](./aiQuota.md) functions.
-- [2500 Tokens](./aiQuota.md))
   
 #### Main
 - `$getServerVar[]` in triggers [(custom prefixes)](./customPrefixes.md).
