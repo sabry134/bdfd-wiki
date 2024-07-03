@@ -1,9 +1,9 @@
 # $hour
 Returns the current hour.
 
-> 🧙‍♂️ You can use [`$time`](./time.md) to change the timezone.
+> You can use [`$time`](./time.md) to change the timezone.
 
-> 📝 The `$hour` function uses the twenty-four-hour clock instead of two groups of twelve hours; this is also known as "Military Time".
+> The `$hour` function uses the twenty-four-hour clock instead of two groups of twelve hours; this is also known as "Military Time".
 
 ## Syntax
 ```
