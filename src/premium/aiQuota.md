@@ -1,5 +1,5 @@
 # $aiQuota
-Returns remaining token limit for the bot.
+Returns the remaining tokens for a bot.
 
 ## Syntax
 ```
@@ -11,7 +11,7 @@ $aiQuota
 ## Example
 ```
 $nomention
-Tokens remaining limit: $aiQuota
+Remaining tokens: $aiQuota
 ```
 
 ``` discord yaml
@@ -26,10 +26,10 @@ Tokens remaining limit: $aiQuota
   bot: true
   verified: true
   content: |
-    Tokens remaining limit: 1800
+    Remaining tokens: 1800
 ```
 \
 
 > New tokens will be awarded and summed up every 24 hours!
 > 
-> The maximum tokens: 2500 (Can be expanded over time) 
+> Token limit (per bot): 2500 (Can be expanded over time)
