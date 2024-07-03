@@ -60,4 +60,4 @@ We've reset all your roles! Now you have "Support" role.
 $nomention
 $userRoles[$authorID]
 ```
-> How [$userRoles[]](./userRoles.md) works?
+> [How $userRoles[] works?](./userRoles.md)
