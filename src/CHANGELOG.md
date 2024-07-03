@@ -4,13 +4,12 @@
 
 ## July
 - Added `$setUserRoles[]`
-- Fixed `$getLeaderboardPosition[]`
+- Added `$getLeaderboardPosition[]`
+- Added `$isBooster[]`
 
 <details><summary>Previous Updates</summary>
 
 ## June
-- Added `$getLeaderboardPosition[]`
-- Added `$isBooster[]`
 - Added `$ai[]`
 - Added `$aiQuota`
 
