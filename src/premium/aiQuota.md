@@ -26,7 +26,7 @@ Remaining tokens: $aiQuota
   bot: true
   verified: true
   content: |
-    Remaining tokens: 1800
+    Remaining tokens: 2497
 ```
 \
 
