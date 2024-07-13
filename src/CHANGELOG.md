@@ -2,11 +2,16 @@
 
 # 2024
 
+## July
+- Added `$setUserRoles[]`
+- Added `$getLeaderboardPosition[]`
+- Added `$isBooster[]`
+
+<details><summary>Previous Updates</summary>
+
 ## June
 - Added `$ai[]`
 - Added `$aiQuota`
-
-<details><summary>Previous Updates</summary>
 
 ## March
 - Fixed the bot sometimes duplicating its answer
