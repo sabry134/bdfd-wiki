@@ -19,7 +19,7 @@ $getLeaderboardPosition[Variable type;Variable name;Sort type;(User ID)]
 ## Example
 ```
 $nomention
-Your position in the leaderboard: $getLeaderboardPosition[user;Coins;asc]
+Your position in the leaderboard: $getLeaderboardPosition[user;Coins;desc]
 ```
 
 ``` discord yaml
