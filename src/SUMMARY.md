@@ -41,6 +41,7 @@
         - [Character Escaping](./guides/other/characterEscaping.md)
         - [Hyperlinks](./guides/other/hyperlinks.md)
         - [Share Code](./guides/other/sharecode.md)
+        - [Common BDFD Errors](./guides/other/commonErrors.md)
 
 - [Resources]()
     - [Introduction](./resources/introduction.md)
