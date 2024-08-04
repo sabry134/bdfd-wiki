@@ -4,6 +4,7 @@
 
 ## August
 - **Flowcharts has joined to BDFD, say Hi!**
+- Added `Entry point`
 - Added `Add numbers`
 - Added `Add response embed`
 - Added `Add`
