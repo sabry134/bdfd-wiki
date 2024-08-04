@@ -3,7 +3,7 @@
 # 2024
 
 ## August
-- **Flowchart has joined to BDFD, say Hi!**
+- **👋 Flowchart has joined to BDFD, say Hi!**
 - Added `Entry point`
 - Added `Add numbers`
 - Added `Add response embed`
