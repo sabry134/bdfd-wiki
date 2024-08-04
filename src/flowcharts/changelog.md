@@ -49,5 +49,5 @@
 - Added `To uppercase`
 
 ```admonish abstract title="BDScript Changelog"
-If you want to get a list of BDScript updates, then [click here](././CHANGELOG.md)
+If you want to get a list of BDScript updates, then [click here](../CHANGELOG.md).
 ```
