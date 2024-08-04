@@ -4,9 +4,8 @@ Sets the response message for the command.
 ## Inputs
 - `Content` `(Type: String || Own text: true)`: Content of the sent message.
 
-## Flags
+### Flags
 - ➤ Execute
-- 🗑 Delete
 
 ## Example
 Entry Point ➤ - ➤ Set response message (Content: `Hello`)
