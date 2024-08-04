@@ -443,6 +443,9 @@
     - [$onMessageDelete](./callbacks/onMessageDelete.md)
     - [$onInteraction](./callbacks/onInteraction.md)
     - [$onInteraction[]](./callbacks/onInteractionComplex.md)
+- [Flowchart]()
+    - [Changelog](./flowchart/changelog.md)
+    - [Set response message](./flowchart/setResponseMessage.md)
 
 - [Premium]()
     - [Introduction](./premium/introduction.md)
