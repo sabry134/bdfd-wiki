@@ -9,7 +9,7 @@ $getTimestamp
 ## Example
 ```
 $nomention
-$getTimestamp
+Current Unix-time: $getTimestamp
 ```
 
 ```discord yaml
