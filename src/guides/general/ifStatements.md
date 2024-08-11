@@ -13,7 +13,7 @@ In this section, you'll learn how to use the if statement.
 ## Support Functions Used
 - [`$and[]`](../../bdscript/and.md)
 - [`$or[]`](../../bdscript/or.md)
-- [`$stop[]`](../../bdscript/stop.md)
+- [`$stop`](../../bdscript/stop.md)
 
 ### Signs
 `==` - Equal
