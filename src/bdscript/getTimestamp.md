@@ -24,10 +24,9 @@ $getTimestamp
   bot: true
   verified: true
   content: |
-    <div id="unix"></div>
+    <div id="unix-mark"></div>
 ```
 
-
-> 📄 For more info about UNIX timestamps on Discord click [here](../resources/discordTimestamps.md).
+> For more info about UNIX timestamps on Discord click [here](../resources/discordTimestamps.md).
 
 <script src="../theme/livetime.js"></script>
