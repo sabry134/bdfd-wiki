@@ -20,7 +20,7 @@ I've been online for `$uptime`!
   username: RainbowKey
   color: "#E67E22"
   content: |
-    !example main-chat
+    !example
 - username: BDFD Support
   user_id: 1009018156494368798
   color: "#378afa"
