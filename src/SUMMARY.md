@@ -1,10 +1,10 @@
 # Summary
 
-[Foreword](foreword.md)
-[Changelog](CHANGELOG.md)
+[Foreword](./foreword.md)
+[Changelog](./CHANGELOG.md)
 [Flowchart Changelog](./FLOWCHART_CHANGELOG.md)
-[Terms of Service](terms.md)
-[Entity Transfer Policy](entityTransferPolicy.md)
+[Terms of Service](./terms.md)
+[Entity Transfer Policy](./entityTransferPolicy.md)
 
 ---
 
@@ -449,8 +449,9 @@
     - [$onMessageDelete](./callbacks/onMessageDelete.md)
     - [$onInteraction](./callbacks/onInteraction.md)
     - [$onInteraction[]](./callbacks/onInteractionComplex.md)
+
 - [Flowchart]()
-    - [Set response message](./flowchart/setResponseMessage.md)
+    - [Set Response Message](./flowchart/setResponseMessage.md)
 
 - [Premium]()
     - [Introduction](./premium/introduction.md)
