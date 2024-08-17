@@ -1,7 +1,7 @@
 # $minute
 Returns the current minute of this hour.
 
-> 🧙‍♂️ You can use [`$time`](./time.md) to change the timezone.
+> You can use [`$time`](./time.md) to change the timezone.
 
 ## Syntax
 ```
@@ -26,7 +26,7 @@ Current Minute: $minute
   bot: true
   verified: true
   content: |
-    <div id="minute"></div>
+    <div id="minute-mark"></div>
 ```
 
 <script src="../theme/livetime.js"></script>
