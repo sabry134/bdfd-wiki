@@ -455,6 +455,7 @@
 
 - [Flowchart]()
     - [Set Response Message](./flowchart/setResponseMessage.md)
+    - [Add Embed Response](./flowchart/addEmbedResponse.md)
 
 - [Premium]()
     - [Introduction](./premium/introduction.md)
