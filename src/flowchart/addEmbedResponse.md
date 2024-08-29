@@ -15,4 +15,22 @@ Entry Point ➤ - ➤ Add response embed (Title: `Meowing Title`, Description: `
 ![image](https://github.com/user-attachments/assets/c99109d3-20df-44a8-be09-a7f5506e71f5)
 
 ## Result
-![image](https://github.com/user-attachments/assets/481f6d79-60df-4ceb-a764-aa043e28b0c8)
+```discord yaml
+- username: Waterly-Kun
+  user_id: 1278118926173081662
+  color: "#748bd4"
+  bot: true
+  avatar: https://cdn.pixabay.com/photo/2023/09/02/03/15/water-8228076_640.jpg
+  verified: true
+  command:
+    user_id: 713752533763489893
+    author: Fai-Kun
+    command: /meow
+    color: "#E67E22" 
+  content: ""
+  embed:
+    title: "Meowing Title"
+    description: "Meowing Description!"
+    footer: 
+      text: "Cats shall rule this footer!"
+```
