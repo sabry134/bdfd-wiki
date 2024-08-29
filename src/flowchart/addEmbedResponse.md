@@ -16,12 +16,10 @@ Entry Point ➤ - ➤ Add response embed (Title: `Meowing Title`, Description: `
 
 ## Result
 ```discord yaml
-- username: Waterly-Kun
-  user_id: 1278118926173081662
+- username: Flowchart
+  user_id: 566613317972394004
   color: "#748bd4"
   bot: true
-  avatar: https://cdn.pixabay.com/photo/2023/09/02/03/15/water-8228076_640.jpg
-  verified: true
   command:
     user_id: 713752533763489893
     author: Fai-Kun
