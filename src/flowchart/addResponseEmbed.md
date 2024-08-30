@@ -1,16 +1,26 @@
+
 # Add response embed
 Adds embed to the response message for the command.
 
 ## Inputs
-- `Title`  `(Type: String || Own text: true)`: Title of the embed message.
-- `Description`  `(Type: String || Own text: true)`: Description of the embed message.
-- `Footer`  `(Type: String || Own text: true)`: Footer of the embed message.
+| Name | Type | Descripton |
+| :----- | :----- | :------ |
+|Title | String |Title Of The Embed Message. |
+| Description | String | Description Of The Embed Message. |
+| Footer | String | Footer Of The Embed Message. |
 
+***
 ### Flags
 - ➤ Execute
 
 ## Example
-Entry Point ➤ - ➤ Add response embed (Title: `Meowing Title`, Description: `Meowing Description`, Footer: `Cats shall rule this footer!`)
+Entry Point ➤ - ➤ Add response embed :
+
+| Name | Value |
+| :----- | :----- |
+|Title | Meowing Title |
+| Description | Meowing Description |
+| Footer | Cats shall rule this footer! |
 
 ![image](https://github.com/user-attachments/assets/c99109d3-20df-44a8-be09-a7f5506e71f5)
 
