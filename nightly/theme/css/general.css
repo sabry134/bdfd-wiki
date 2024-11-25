@@ -91,7 +91,10 @@ h4 a.header:target {
 }
 
 table {
-    margin: 0 auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     border-collapse: collapse;
 }
 table td {
@@ -145,15 +148,18 @@ blockquote {
     color: #fff;
     background-color: #333;
     transform: translateX(-50%); /* Center by moving tooltip 50% of its width left */
-    left: -8px; /* Half of the width of the icon */
+    left: 55px;
     top: -35px;
-    font-size: 0.8em;
+    font-size: .6em;
+    font-style: normal;
+    font-family: system-ui;
     text-align: center;
     border-radius: 6px;
     padding: 5px 8px;
     margin: 5px;
     z-index: 1000;
 }
+
 .tooltipped .tooltiptext {
     visibility: visible;
 }
